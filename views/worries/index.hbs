@@ -1,0 +1,9 @@
+<a href="/worries/new">Add Worry</a>
+
+{{#each worries}}
+  <h2 class = "category">{{category}}</h2>
+  <p class="worry">{{body}}</p>
+  <form method="post" action="/worries/{{_id}}?_method=delete">
+    <input type="submit" value="No Longer Worried!">
+  </form>
+{{/each}}

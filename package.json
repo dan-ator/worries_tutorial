@@ -1,0 +1,18 @@
+{
+  "name": "tutorial_express",
+  "version": "1.0.0",
+  "description": "Tutorial for building basic express app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Alexander",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3",
+    "hbs": "^4.0.0",
+    "method-override": "^2.3.5",
+    "mongoose": "^4.3.4"
+  }
+}
