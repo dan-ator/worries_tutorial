@@ -1,15 +1,10 @@
 var mongoose = require('mongoose')
 var WorryModel = require("../models/worry")
 mongoose.connect('mongodb://localhost/worries')
-// var CategoryModel = require("../models/category")
 
 WorryModel.remove({}, function(err){
   console.log(err)
 })
-
-// CategoryModel.remove({}, function(err){
-//   console.log(err)
-// })
 
 var worry1 = new WorryModel({
   body: "I won't be able to find a job after graduation",
